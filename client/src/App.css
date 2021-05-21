@@ -1,0 +1,38 @@
+.new-btn, .input-btn {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    background-color: #FFFFFF;
+    color: #060b26;
+    border: 1px solid #060b26;
+    
+}
+
+
+
+form {
+    border: 1px solid #00020a;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+label {
+    width: 200px;
+}
+
+.formQ {
+    margin: 10px;
+}
+
+.formQ>input {
+    margin-left: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    form {
+        text-align: center;
+    }
+    .formQ>input {
+        margin-left: 0;
+    }
+}
